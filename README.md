@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+プル後に動かす場合は、`npm install`が必要（`/node_modules`が ignore になっているため。）
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
