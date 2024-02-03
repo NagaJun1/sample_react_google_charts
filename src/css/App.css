@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+}
+
+.App p {
+  margin: 0px;
+  padding: 10px;
+}
+
+/* 中央寄せ */
+.center {
+  margin: 0 auto;
+}
+
+.margin10 {
+  margin: 10px;
+}
+
+.margin20 {
+  margin: 20px;
+}
+
+.margin30 {
+  margin: 30px;
+}
+
+.min_width100 {
+  min-width: 100px;
+}
+
+.min_width120 {
+  min-width: 120px;
+}
+
+.min_width150 {
+  min-width: 150px;
+}
+
+.min_width200 {
+  min-width: 200px;
+}
+
+.max_width100 {
+  max-width: 100px;
+}
+
+.bg_gray {
+  background: rgb(200, 200, 200);
+}
+
+.bg_blue{
+  background: rgb(140, 220, 255);
+}
+
+.padding5 {
+  padding: 5px;
+}
