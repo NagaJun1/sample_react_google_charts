@@ -1,6 +1,7 @@
 import React, { ReactElement, useState } from 'react';
 import './css/App.css';
 import Chart, { ReactGoogleChartEvent } from 'react-google-charts';
+import BarChart from './ts/BarChart';
 
 /** メイン画面 */
 const App = () => {
@@ -87,6 +88,7 @@ const App = () => {
         chartEvents={chartEvents}
       />
     </div>
+    <BarChart />
   </>);
 }
 
