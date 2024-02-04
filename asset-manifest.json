@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sample_react_google_charts/static/css/main.fa36400d.css",
-    "main.js": "/sample_react_google_charts/static/js/main.a637316b.js",
+    "main.css": "/sample_react_google_charts/static/css/main.5596f910.css",
+    "main.js": "/sample_react_google_charts/static/js/main.d132361a.js",
     "static/js/592.36250b48.chunk.js": "/sample_react_google_charts/static/js/592.36250b48.chunk.js",
     "index.html": "/sample_react_google_charts/index.html",
-    "main.fa36400d.css.map": "/sample_react_google_charts/static/css/main.fa36400d.css.map",
-    "main.a637316b.js.map": "/sample_react_google_charts/static/js/main.a637316b.js.map",
+    "main.5596f910.css.map": "/sample_react_google_charts/static/css/main.5596f910.css.map",
+    "main.d132361a.js.map": "/sample_react_google_charts/static/js/main.d132361a.js.map",
     "592.36250b48.chunk.js.map": "/sample_react_google_charts/static/js/592.36250b48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa36400d.css",
-    "static/js/main.a637316b.js"
+    "static/css/main.5596f910.css",
+    "static/js/main.d132361a.js"
   ]
 }
