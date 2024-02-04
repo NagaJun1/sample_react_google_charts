@@ -21,17 +21,21 @@ const BarChart = () => {
 
   return (<>
     <div className='flex'>
-      <div className='min_width150 margin30 padding5 bg_blue'>
-        <h3>selected Row</h3>
-        <h3>{selectedRow}</h3>
-        <h3>selected Column</h3>
-        <h3>{selectedColumn}</h3>
+      <div className='margin20'>
+        <div className='min_width150 margin10 padding5 bg_blue'>
+          <h3>selected Row：</h3>
+          <h3>{CHART_DATA[selectedRow + 1][0]}</h3>
+        </div>
+        <div className='min_width150 margin10 padding5 bg_blue'>
+          <h3>selected Column：</h3>
+          <h3>{CHART_DATA[0][selectedColumn]}</h3>
+        </div>
       </div>
       <Chart
         chartType="BarChart"
         width="100%"
         height="400px"
-        data={data}
+        data={CHART_DATA}
         options={options}
         chartEvents={chartEvents}
       />
@@ -40,7 +44,7 @@ const BarChart = () => {
 }
 
 /** グラフに表示するデータ */
-export const data = [
+export const CHART_DATA = [
   ["month", "value1", "value2", "value3"],
   ["１月", 1000, 1100, 1200],
   ["２月", 2000, 2100, 2200],

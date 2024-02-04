@@ -86,8 +86,7 @@ const App = () => {
         options={CHART_OPTIONS}
         width={"100%"}
         height={"500px"}
-        chartEvents={chartEvents}
-      />
+        chartEvents={chartEvents} />
     </div>
     <BarChart />
   </>);
