@@ -1,4 +1,4 @@
-.App {
+.flex {
   display: flex;
 }
 
@@ -44,11 +44,15 @@
   max-width: 100px;
 }
 
+.max_width800 {
+  max-width: 800px;
+}
+
 .bg_gray {
   background: rgb(200, 200, 200);
 }
 
-.bg_blue{
+.bg_blue {
   background: rgb(140, 220, 255);
 }
 

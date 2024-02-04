@@ -36,7 +36,7 @@ const App = () => {
           }
         }
 
-        inputs.push(<div key={index} className='min_width100 bg_gray margin10 padding5'>
+        inputs.push(<div key={index} className='flex min_width200 bg_gray margin10 padding5'>
           <p>{data1[0]}</p>
           <button className='margin10 padding5' onClick={() => {
             addValue(1);
@@ -70,7 +70,7 @@ const App = () => {
         https://github.com/NagaJun1/sample_react_google_charts
       </a>
     </div>
-    <div className="App">
+    <div className="App flex">
       <div className='margin30 min_width100'>
         <Editors />
         <div className='min_width100 margin10 padding5 bg_blue'>
@@ -79,12 +79,13 @@ const App = () => {
         </div>
       </div>
       <Chart
+        className='max_width800'
         key={chartSeed}
         chartType="PieChart"
         data={chartData}
         options={CHART_OPTIONS}
         width={"100%"}
-        height={"600px"}
+        height={"500px"}
         chartEvents={chartEvents}
       />
     </div>
